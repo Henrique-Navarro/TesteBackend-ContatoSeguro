@@ -122,13 +122,13 @@ Este projeto foi desenvolvido utilizando a versão `8.0-apache` do PHP, além de
     docker ps
     ```
     
-    - Certifique-se de incluir o diretório db contendo os arquivos do banco de dados SQLite.
+    - Certifique-se de incluir o diretório `db` contendo os arquivos do banco de dados `SQLite`.
       
-4. **Aplicação em execução em:**
+3. **Aplicação em execução em:**
 
     [http://localhost:8000](http://localhost:8000)
 
-5. **Para encerrar o ambiente Docker:**
+4. **Para encerrar o ambiente Docker:**
 
     ```bash
     docker-compose down
