@@ -91,7 +91,7 @@ Este projeto foi desenvolvido utilizando a versão `8.0-apache` do PHP, além de
 1. **Clone este repositório:**
 
     ```bash
-    git clone https://github.com/Henrique-Navarro/CRUD-PHP.git
+    git clone https://github.com/Henrique-Navarro/TesteBackend-ContatoSeguro.git
     ```
 
 2. **Execute o Docker Compose no diretório raiz do projeto para iniciar os serviços:**
