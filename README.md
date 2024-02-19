@@ -101,15 +101,37 @@ Este projeto foi desenvolvido utilizando a versão `8.0-apache` do PHP, além de
     docker-compose up -d
     ```
 
-3. **Aplicação em execução em:**
+    2.1 Em caso de erro na instalação das dependências do projeto, instale-as manualmente:
+    
+    - Acesse o container: 
+        ```bash
+        docker exec -it <id_do_container> bash
+        ```
+    - Dentro do container, execute:
+        ```bash
+        composer install
+        ```
+    - Saia do container:
+        ```bash
+        exit
+        ```
+
+    Para verificar se o container está em execução, utilize o comando:
+    
+    ```bash
+    docker ps
+    ```
+
+4. **Aplicação em execução em:**
 
     [http://localhost:8000](http://localhost:8000)
 
-4. **Para encerrar o ambiente Docker:**
+5. **Para encerrar o ambiente Docker:**
 
     ```bash
     docker-compose down
     ```
+
 
 ### Funcionalidades
 
