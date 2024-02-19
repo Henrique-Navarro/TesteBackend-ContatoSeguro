@@ -121,7 +121,9 @@ Este projeto foi desenvolvido utilizando a versão `8.0-apache` do PHP, além de
     ```bash
     docker ps
     ```
-
+    
+    - Certifique-se de incluir o diretório db contendo os arquivos do banco de dados SQLite.
+      
 4. **Aplicação em execução em:**
 
     [http://localhost:8000](http://localhost:8000)
