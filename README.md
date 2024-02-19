@@ -97,6 +97,7 @@ Este projeto foi desenvolvido utilizando a versão `8.0-apache` do PHP, além de
 2. **Execute o Docker Compose no diretório raiz do projeto para iniciar os serviços:**
 
     ```bash
+    cd ./TesteBackend-ContatoSeguro
     docker-compose up -d
     ```
 
